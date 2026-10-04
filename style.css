@@ -1,0 +1,127 @@
+@media (max-width: 992px) {
+    .responsive-title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 576px) {
+    .responsive-title {
+        font-size: 28px;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    padding: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+.responsive-title {
+    font-size: 48px;
+}
+
+.responsive-text {
+    font-size: 22px;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.bootstrap-box {
+    border: 1px solid black;
+    padding: 40px;
+    text-align: center;
+}
+
+.project-card {
+
+    border: 1px solid black;
+
+    padding: 20px;
+
+    height: 100%;
+
+}
+
+
+.sidebar {
+
+    border: 1px solid black;
+
+    padding: 20px;
+
+}
+
+
+footer {
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+
+
+@media (max-width: 992px) {
+    .responsive-title {
+        font-size: 36px;
+    }
+                
+    .responsive-text {
+        font-size: 18px;
+    }
+
+    .boxes {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        flex: 0 0 calc(50% - 10px);
+    }    
+}
+
+    @media (max-width: 576px) {
+
+        section {
+            padding: 25px 0;    
+        }
+
+        .responsive-title {
+            font-size: 28px;    
+        }
+
+        .responsive-text {
+            font-size: 15px;    
+        }
+
+        .boxes {
+            flex-direction: column;    
+        }
+
+        .box {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .sidebar {    
+            margin-top: 20px;
+        }
+
+    }
